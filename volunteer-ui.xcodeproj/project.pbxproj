@@ -15,6 +15,7 @@
 		048DB9542425B02B00F12234 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 048DB9532425B02B00F12234 /* Preview Assets.xcassets */; };
 		048DB9572425B02B00F12234 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 048DB9552425B02B00F12234 /* LaunchScreen.storyboard */; };
 		048DB95F2425BB1300F12234 /* volunteerSignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048DB95E2425BB1300F12234 /* volunteerSignUp.swift */; };
+		D957F9AB2458ED1B00DF1AB8 /* quasimoda-light.otf in Resources */ = {isa = PBXBuildFile; fileRef = D957F9AA2458ED1B00DF1AB8 /* quasimoda-light.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		048DB9562425B02B00F12234 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		048DB9582425B02B00F12234 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		048DB95E2425BB1300F12234 /* volunteerSignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = volunteerSignUp.swift; sourceTree = "<group>"; };
+		D957F9AA2458ED1B00DF1AB8 /* quasimoda-light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "quasimoda-light.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				048DB9472425B02900F12234 /* AppDelegate.swift */,
 				048DB9492425B02900F12234 /* SceneDelegate.swift */,
 				048DB94E2425B02900F12234 /* ContentView.swift */,
+				D957F9AA2458ED1B00DF1AB8 /* quasimoda-light.otf */,
 				048DB95E2425BB1300F12234 /* volunteerSignUp.swift */,
 				048DB9502425B02B00F12234 /* Assets.xcassets */,
 				048DB9552425B02B00F12234 /* LaunchScreen.storyboard */,
@@ -142,6 +145,7 @@
 				048DB9572425B02B00F12234 /* LaunchScreen.storyboard in Resources */,
 				048DB9542425B02B00F12234 /* Preview Assets.xcassets in Resources */,
 				048DB9512425B02B00F12234 /* Assets.xcassets in Resources */,
+				D957F9AB2458ED1B00DF1AB8 /* quasimoda-light.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

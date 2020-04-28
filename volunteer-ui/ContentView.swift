@@ -17,16 +17,54 @@ struct ContentView: View {
             volunteerSignUp()
             Button(action: signUp) {
                 Text("Volunteer")
+                .padding(0.0)
+                .background(Color.yellow)
+                .frame(maxWidth: .infinity, maxHeight: 45)
+                .frame(width: 10000.0)
+                .cornerRadius(.infinity)
+                .font(Font.custom("quasimoda-light", size: 24))
             }
+            .padding(0.0)
+            .background(Color.yellow)
+            .frame(maxWidth: .infinity, maxHeight: 45)
+            .frame(width: 10000.0)
+            .cornerRadius(.infinity)
+            .font(Font.custom("quasimoda-light", size: 24))
             Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
                 Text("Request Help")
+                .padding(0.0)
+                .background(Color.yellow)
+                .frame(maxWidth: .infinity, maxHeight: 45)
+                .frame(width: 10000.0)
+                .cornerRadius(.infinity)
+                .font(Font.custom("quasimoda-light", size: 24))
             }
+            .padding(0.0)
+            .background(Color.yellow)
+            .frame(maxWidth: .infinity, maxHeight: 45)
+            .frame(width: 10000.0)
+            .cornerRadius(.infinity)
+            .font(Font.custom("quasimoda-light", size: 24))
             //About Button Below
             Button(action: {
                 self.showingAboutAlert = true
             }) {
                 Text("About")
+                .padding(0.0)
+                .background(Color.yellow)
+                .frame(maxWidth: .infinity, maxHeight: 45)
+                .frame(width: 10000.0)
+                .cornerRadius(.infinity)
+                .font(Font.custom("quasimoda-light", size: 24))
             }
+            .padding(0.0)
+            .background(Color.yellow)
+            .frame(maxWidth: .infinity)
+            .frame(width: 10000.0)
+            .cornerRadius(.infinity)
+            .font(Font.custom("quasimoda-light", size: 24))
+
+ 
         //VSTACK END below
         }
         .alert(isPresented: $showingAboutAlert) {

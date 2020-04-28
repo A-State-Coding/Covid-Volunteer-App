@@ -15,26 +15,39 @@ struct volunteerSignUp: View {
     
     var body: some View {
         NavigationView{
+
         Form {
+            
             Section {
                 Text("Nickname")
+                .padding(0.0)
+                .foregroundColor(.yellow)             .font(Font.custom("quasimoda-light", size: 10))
                 TextField("Nickname", text: $nickname)
             }
             Section {
                 Text("Five-Digit ZipCode")
+                .padding(0.0)
+                   .foregroundColor(.yellow)             .font(Font.custom("quasimoda-light", size: 10))
                 TextField("ZipCode", text: $zip)
                     .keyboardType(/*@START_MENU_TOKEN@*/.numberPad/*@END_MENU_TOKEN@*/)
+                
             }
             Section{
                 Text("Preference for Miles Away")
+                .padding(0.0)
+                   .foregroundColor(.yellow)             .font(Font.custom("quasimoda-light", size: 10))
                 Picker("Miles", selection: $preferenceDist){
                     ForEach(1..<20) {
                         Text("\($0) miles away")
                     }
+                    
+                    
                 }
                 
             }
+            
         }
+            
     }
     }
 }
